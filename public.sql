@@ -21,7 +21,7 @@
 -- ----------------------------
 DROP SEQUENCE IF EXISTS "public"."logs_id_seq";
 CREATE SEQUENCE "public"."logs_id_seq" 
-INCREMENT 1
+INCREMENT 12
 MINVALUE  1
 MAXVALUE 9223372036854775807
 START 1
